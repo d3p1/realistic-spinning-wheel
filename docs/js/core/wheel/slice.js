@@ -5,8 +5,8 @@
 export default class Slice {
   /**
    * @type     {Object}
-   * @property {number} x - The x coordinate of the center point
-   * @property {number} y - The y coordinate of the center point
+   * @property {number} x
+   * @property {number} y
    */
   #center
 
