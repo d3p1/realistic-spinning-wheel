@@ -51,8 +51,8 @@ export default class Slice {
   /**
    * Renders a slice in the canvas using the provided context
    *
-   * @param  {CanvasRenderingContext2D} context
-   * @return {void}
+   * @param   {CanvasRenderingContext2D} context
+   * @returns {void}
    */
   render(context) {
     context.beginPath()
@@ -72,9 +72,9 @@ export default class Slice {
   /**
    * Updates slice
    *
-   * @param  {CanvasRenderingContext2D} context
-   * @param  {number}                   speed
-   * @return {void}
+   * @param   {CanvasRenderingContext2D} context
+   * @param   {number}                   speed
+   * @returns {void}
    */
   update(context, speed) {
     this.#startAngle += speed

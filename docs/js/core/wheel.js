@@ -33,8 +33,8 @@ export default class Wheel {
   /**
    * Update
    *
-   * @param  {CanvasRenderingContext2D} context
-   * @return {void}
+   * @param   {CanvasRenderingContext2D} context
+   * @returns {void}
    */
   update(context) {
     for (const slice of this.#sliceCollection) {
@@ -45,11 +45,11 @@ export default class Wheel {
   /**
    * Build slices
    *
-   * @param  {number}   centerX
-   * @param  {number}   centerY
-   * @param  {number}   radius
-   * @param  {string[]} colors
-   * @return {Slice[]}
+   * @param   {number}   centerX
+   * @param   {number}   centerY
+   * @param   {number}   radius
+   * @param   {string[]} colors
+   * @returns {Slice[]}
    */
   #buildSlices(centerX, centerY, radius, colors) {
     const slices = []
