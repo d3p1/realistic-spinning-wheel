@@ -31,6 +31,8 @@ export default class Bootstrap {
     this.#canvas = this.#buildCanvas(canvasId)
     this.#context = this.#canvas.getContext('2d')
     this.#wheel = this.#buildWheel(wheelColors)
+
+    this.#context.globalAlpha = 0.1
   }
 
   /**
