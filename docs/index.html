@@ -6,17 +6,19 @@
  */
 -->
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Realistic Spinning Wheel</title>
-    </head>
-    <body>
-        <canvas id="wheel" role="presentation"></canvas>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Realistic Spinning Wheel</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<canvas id="wheel" role="presentation"></canvas>
 
-        <script type="module">
-            import Bootstrap from './js/bootstrap.js'
-            new Bootstrap('wheel', ['red', 'green', 'blue']).animate()
-        </script>
-    </body>
+<script type="module">
+  import Bootstrap from './js/bootstrap.js'
+
+  new Bootstrap('wheel', ['#D8CFAF', '#E6B89C', '#ED9390', '#F374AE']).animate()
+</script>
+</body>
 </html>
