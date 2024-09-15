@@ -37,9 +37,14 @@ export default class Wheel {
    * @returns {void}
    */
   update(context) {
+    context.save()
+    context.globalAlpha = 0.1
     for (const slice of this.#sliceCollection) {
-      slice.update(context, this.#speed)
+      for (let i = 0; i <= this.#speed; i += this.#speed / 20) {
+        slice.update(context, i)
+      }
     }
+    context.restore()
   }
 
   /**
