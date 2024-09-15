@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/d3p1/realistic-spinning-wheel/compare/v1.1.0...v1.2.0) (2024-09-15)
+
+
+### Features
+
+* improve styles [[#1](https://github.com/d3p1/realistic-spinning-wheel/issues/1)] ([900eb53](https://github.com/d3p1/realistic-spinning-wheel/commit/900eb53a476dc339c946972daa9042416bef7cd6))
+* improve wheel fuzzy effect [[#1](https://github.com/d3p1/realistic-spinning-wheel/issues/1)] ([852ab3e](https://github.com/d3p1/realistic-spinning-wheel/commit/852ab3e064765941a30df83370882d2b348fde8e))
+
 # [1.1.0](https://github.com/d3p1/realistic-spinning-wheel/compare/v1.0.0...v1.1.0) (2024-09-15)
 
 
