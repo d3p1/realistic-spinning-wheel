@@ -3,7 +3,7 @@
  * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
  * @note        For now, this wheel class will work as a wheel slice builder
  */
-import Slice from './wheel/slice'
+import Slice from './wheel/slice.js'
 
 export default class Wheel {
   /**

@@ -3,7 +3,7 @@
  * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
  * @note        For now, this class will work as a wheel builder
  */
-import Wheel from './core/wheel'
+import Wheel from './core/wheel.js'
 
 export default class Bootstrap {
   /**
