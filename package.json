@@ -20,9 +20,9 @@
   "license": "MIT",
   "scripts": {
     "prepare": "husky",
-    "lint": "npx eslint src test",
+    "lint": "npx eslint docs",
     "lint:fix": "npm run lint -- --fix",
-    "prettier": "npx prettier src test --check",
+    "prettier": "npx prettier docs --check",
     "prettier:fix": "npm run prettier -- --write",
     "format": "npm run prettier:fix && npm run lint:fix"
   },
